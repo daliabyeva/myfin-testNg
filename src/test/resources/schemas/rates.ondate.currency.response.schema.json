@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Cur_ID": {
+      "type": "integer"
+    },
+    "Date": {
+      "type": "string"
+    },
+    "Cur_Abbreviation": {
+      "type": "string"
+    },
+    "Cur_Scale": {
+      "type": "integer"
+    },
+    "Cur_Name": {
+      "type": "string"
+    },
+    "Cur_OfficialRate": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "Cur_ID",
+    "Date",
+    "Cur_Abbreviation",
+    "Cur_Scale",
+    "Cur_Name",
+    "Cur_OfficialRate"
+  ]
+}
