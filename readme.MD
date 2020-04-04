@@ -22,4 +22,5 @@ For Windows:
 
 ### command to generate allure report : 
 `allure serve target/allure-results`
+
 Steps, selenide elements and API requests/response can be found in the report detailed view
