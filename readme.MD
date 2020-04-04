@@ -5,7 +5,7 @@ This project contains scripts to test  myfin page.
 - Project uses [Lombok](https://projectlombok.org/) library to avoid repetitive code. To switch on Lombok support, Lombok plugin is to be installed (present in standard IntelliJ IDEA repository). Then restart the IDE 
 - Allure commandline to be installed <br> 
 
-For Windows (example commands in case [npm](www.npmjs.com/get-npm) is already installed) : <br>
+For Windows (example commands in case [npm](https://www.npmjs.com/get-npm) is already installed) : <br>
 ` npm install -g allure`<br>
  `npm install -g allure-commandline`
 
