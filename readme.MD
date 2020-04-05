@@ -12,8 +12,8 @@ For Windows (example commands in case [npm](https://www.npmjs.com/get-npm) is al
 ## Repository structure
 - com.bank.utils.* - contains utility classes.
 - com.bank.myfin.* - contains application logic.
-- com.bank.guice.* - contains description modules and dependencies providers. Project uses [Google Guice](https://github.com/google/guice).
-- resources - contain project config files and test data
+- com.bank.guice.* - contains description of modules and dependencies providers. Project uses [Google Guice](https://github.com/google/guice).
+- resources - contain project config files and test data.
 - tests are located under test folder in dir com.bank.*
 
 ## Tests running
