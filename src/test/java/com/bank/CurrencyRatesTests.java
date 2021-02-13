@@ -8,7 +8,6 @@ import com.google.inject.Inject;
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
 import static io.qameta.allure.Allure.step;
 
 

@@ -2,12 +2,14 @@ package com.bank.myfin.logic.steps;
 
 import com.bank.myfin.forms.CurrencyRatesPage;
 import com.codeborne.selenide.Condition;
+import com.google.inject.Inject;
 import io.qameta.allure.Step;
 
 public class CurrencyRatesSteps {
 
     private final CurrencyRatesPage currencyRatesPage;
 
+    @Inject
     public CurrencyRatesSteps(CurrencyRatesPage currencyRatesPage) {
         this.currencyRatesPage = currencyRatesPage;
     }

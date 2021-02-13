@@ -10,7 +10,6 @@ public class APISteps {
 
     private final RatesService ratesService;
 
-
     public APISteps(RatesService ratesService) {
         this.ratesService = ratesService;
     }
